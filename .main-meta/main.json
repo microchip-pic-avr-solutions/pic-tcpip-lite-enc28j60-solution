@@ -1,0 +1,63 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic-tcpip-lite-enc28j60-solution",
+        "version": "1.0.0",
+        "displayName": "ENC28J60 TCPIP Solutions with PIC",
+        "projectName": "pic-tcpip-lite-enc28j60-solution",
+        "shortDescription": "This MPLAB® X MCC example shows implementation of TCP/IP Lite Applications using Microchip ENC28J60 Ethernet Driver on a PIC® Device",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": "^6.10.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.41.0"
+            }
+        ],
+        "dfp": {
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.14.237"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": "^5.3.7"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F47Q10",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "peripherals": [
+            "Interrupt",
+            "SPI"
+        ],
+        "keywords": [
+            "MCC Melody",
+            "TCPIP",
+            "Ethernet",
+            "Curiosity Nano",
+			"MikroE Click Board"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
